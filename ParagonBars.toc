@@ -1,0 +1,9 @@
+## Interface: 80000
+## Author: Sanex (Arathor EU)
+## Title: ParagonBars
+## Notes: Repurpose ReputationFrame elements to show actual progress as progressbar and in numbers when hovering mouse over progressbars for Paragon reputations.
+## Version: @project-version@
+## RequiredDeps:
+## SavedVariables:
+
+ParagonBars.lua
