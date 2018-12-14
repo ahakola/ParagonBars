@@ -31,7 +31,7 @@ local function hook_ReputationFrame_Update(...) -- ReputationFrame.lua#123
 					if hasRewardPending then
 						value = value + threshold
 					end
-					factionRow.rolloverText = HIGHLIGHT_FONT_COLOR_CODE.." "..format(REPUTATION_PROGRESS_FORMAT, value, threshold)..FONT_COLOR_CODE_CLOSE
+					factionRow.rolloverText = HIGHLIGHT_FONT_COLOR_CODE.." "..format(REPUTATION_PROGRESS_FORMAT, BreakUpLargeNumbers(value), BreakUpLargeNumbers(threshold))..FONT_COLOR_CODE_CLOSE
 
 					factionBar:SetMinMaxValues(0, threshold)
 					factionBar:SetValue(value)
