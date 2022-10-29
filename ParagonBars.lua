@@ -35,7 +35,6 @@ local function hook_ReputationFrame_Update(factionRow, elementData)
 	end
 end
 
---hooksecurefunc("ReputationFrame_Update", hook_ReputationFrame_Update) -- https://www.townlong-yak.com/framexml/7.2.0/ReputationFrame.lua#123
 hooksecurefunc("ReputationFrame_InitReputationRow", hook_ReputationFrame_Update) -- https://www.townlong-yak.com/framexml/10.0.0/ReputationFrame.lua#129
 
 --EOF
