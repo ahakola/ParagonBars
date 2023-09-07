@@ -1,4 +1,4 @@
-## Interface: 100105
+## Interface: 100107
 ## Author: Sanex (Arathor EU)
 ## Title: ParagonBars
 ## Notes: Repurpose ReputationFrame elements to show actual progress as progressbar and in numbers when hovering mouse over progressbars for Paragon reputations.
